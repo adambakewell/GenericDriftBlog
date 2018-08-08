@@ -1,0 +1,189 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Post I: Driving mammals into darkness},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\newcommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Post I: Driving mammals into darkness}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{}
+    \preauthor{}\postauthor{}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{08/08/2018}
+
+
+\begin{document}
+\maketitle
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+Atypical for a zoologist, I'm terrified of most animals. Growing up in
+the wildlife paradise of Stoke-on-Trent, my mother's response was a
+fairly standard ``they're more scared of you than you are of them''.
+Maybe that's not true of my childhood interactions with Canadian Geese -
+but new research published in the journal
+\href{http://science.sciencemag.org/content/360/6394/1232}{\emph{Science}}
+highlights widespread changes in the behaviour of mammals, which the
+authors attribute to fear of humans. We're driving our fellow mammals
+into the night: increasing nocturnal activity in the presence of human
+activity, on average, by a factor of 1.36\protect\hyperlink{f1}{1}. This
+means, for example, that if a species naturally split its activity 50\%
+day and 50\% night, around humans the night time activity would increase
+to 68\%.
+
+The black bear, \emph{Ursus americanus}, is amongst large predetors
+showing increased night time activity in response to people. Image:
+Cephas/Wikimedia Commons, CC BY-SA 3.0
+
+What is it that we're doing to push our Class-mates under the cover of
+darkness? The authors pulled together 76 studies, from across the globe,
+measuring activity patterns in relation to anthropogenic stressors
+including vehicles, agriculture, mining, hunting, building works, and
+even hiking. Significant increases to nocturnality were found in
+response to \emph{every single form} of human presence that they tested.
+Surprisingly, the diel pattern shifts caused by non-lethal activities
+like hiking and other recreational activities were statistically
+indistinguishable from those caused by lethal activities such as hunting
+- which the authors say suggests ``that animals perceive and respond to
+human threats even when they pose no direct
+risk''\protect\hyperlink{f1}{1}.
+
+These findings were consistent across habitats, continents, normal
+activity periods, diet types, and body size classes. Even apex predators
+like the lion (\emph{Panthera leo}) and the black bear (\emph{Ursus
+americanus}), which have recent evolutionary histories largely devoid of
+predation risk, appear to be responding to human activity by increased
+nocturnality.
+
+These findings sound scary: humans, acting as a diurnal apex ``super
+predator'', not content with constricting animal spatial distributions
+through massive habitat destruction and defaunation are also affecting
+their temporal distribution too.
+
+The cheetah, \emph{Acinonyx jubatus}, may already owe its diel pattern
+to temporal niche partitioning with dominant lions - it too shows
+increasing nocturnality in areas of human disturbance. Image: Amit
+Patel, CC-0
+
+Some optimists may see this as a positive thing - evidence of adaptation
+in action, and there is some evidence that where people lethally
+threaten animals a shift towards nocturnality can increase survival
+probability\protect\hyperlink{f2}{2}.
+
+Indeed, \emph{temporal niche partitioning} (to give it it's scientific
+name) is an intrinsic feature of Earth's ecosystems. Cheetahs
+(\emph{Acinonyx jubatus}) and lions, for example, are large predators
+with extensive dietary and spatial overlap. The larger lion is known to
+kill cheetahs, prevent them from accessing prey-dense areas, and steal
+their food - but they manage to coexist. Some suggest that this is a
+result of temporal niche partitioning, the nocturnal lions forging the
+(largely) diurnal activity pattern of the cheetah over evolutionary
+time, but the evidence supporting this is far from
+clear\protect\hyperlink{f3}{3}.
+
+Considering their history, it seems likely that diurnal mammals will
+possess traits and sensory adaptations that work optimally in daylight.
+Driven into the night, amongst other effects these animals may no longer
+be able to hunt or forage as efficiently, their social behaviour may be
+disrupted, they may be poorer at navigation. All of these could set off
+a domino-effect cascade throughout the trophic levels of an ecosystem:
+increasing nocturnality in prey animals puts them at risk from nocturnal
+predators; increasing nocturnality in predators may push prey animals
+towards diurnality and increase human-interactions themselves.
+
+Understanding how ecological communities will change in response to
+human activity, for better or worse, requires further study. I'd be
+especially interested to see whether similar diel shifts are found
+across non-mammalian animals - though Canadian Geese continue to
+terrorise me, personally!
+
+-- Adam
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\emph{References:}\\
+1 Gaynor, K. M., C. E. Hojnowski, N. H. Carter, \& J. S. Brashares,
+2018. The influence of human disturbance on wildlife nocturnality.
+\emph{Science} \textbf{360}, 1232-1235. \protect\hyperlink{a1}{↩︎}\\
+2 Murray, M. H., \& C. C. St.~Clair, 2015. Individual flexibility in
+nocturnal activity reduces risk of road mortality for an urban
+carnivore. \emph{Behavioral Ecology} \textbf{26}, 1520-1527.
+\protect\hyperlink{a2}{↩︎}\\
+3 Cozzi, G., F. Broekhuis, J. W. McNutt, L. A. Turnbull, D. W.
+Macdonald, \& B. Schmid, 2012. Fear of dark or dinner by moonlight?
+Reduced temporal partitioning among Africa's large carnivores.
+\emph{Ecology} \textbf{93}, 2590-2599. \protect\hyperlink{a3}{↩︎}
+
+
+\end{document}
