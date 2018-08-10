@@ -1,0 +1,40 @@
+.bqstart {
+  float: left;
+  font-size: 700%;
+  color: #6AC4DD;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.bqend {
+  float: right;
+  font-size: 700%;
+  color: #6AC4DD;
+  margin-top: -53px;
+  height: 30px;
+}
+
+input#show, input#hide {
+  display:none;
+}
+
+span#content {
+  display:none;
+}
+input#show:checked ~ span#content {
+  display:block;
+}
+
+input#hide:checked ~ span#content {
+  display:none;
+}
+
+figure {
+	border: 0;
+	margin: 15px;
+	float: right;
+	font-size: smaller;
+	text-align: center;
+	max-width: 65%;
+	padding: 0.5em;
+}
