@@ -1,10 +1,10 @@
 ---
 title: 'Post I: Driving mammals into darkness'
 output:
-  word_document: default
-  pdf_document: default
   html_document:
     css: forpics.css
+  pdf_document: default
+  word_document: default
 date: "08/08/2018"
 ---
 
